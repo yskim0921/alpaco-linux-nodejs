@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/yskim0921/alpaco-linux-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yskim0921/alpaco-linux-nodejs/issues"
+  },
+  "homepage": "https://github.com/yskim0921/alpaco-linux-nodejs#readme"
 }

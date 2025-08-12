@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TODO LIST</h1>
+        <h2>현재화면은 todos.ejs 파일인데 html 형식하고 거의 동일하다.</h2>
+
+
+<%
+    // EJS 템플릿 - 자바스크립트 문법 사용가능.
+    todoList.forEach((todo, i) => {
+%>
+
+        <p><%=todo.no%> | <%=todo.title%> | <%=todo.done%></p>
+
+<%
+
+    });
+
+%>
+
+</body>
+</html>
